@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<!-- 정적컨텐츠 : 파일을 그대로 웹 브라우저에 전달하는 방식 -->
+<!-- 1. 웹 브라우저(클라이언트)에서 host/index.html 요청 -->
+<!-- 2. 내장 톰켓 서버(was:웹서버)는 해당 요청을 스프링에 전달 -->
+<!-- 3. 스프링은 index.htm 와 관련된(매핑) Controller가 있는지 찾는다 -->
+<!-- 4. resource/static 안에서 찾게된다. -->
+<body>
+  Hello
+  <a href="/hello">hello</a>
+</body>
+</html>
